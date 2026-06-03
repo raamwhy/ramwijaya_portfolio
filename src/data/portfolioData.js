@@ -561,7 +561,7 @@ export const projects = [
     ],
   },
   {
-    order: 5,
+    order: 6,
     title: 'Image Classification Animals-10',
     category: {
       en: 'Machine Learning',
@@ -624,6 +624,27 @@ export const projects = [
       {
         en: 'Designed a modern service website experience with smooth interactions and responsive layout.',
         id: 'Merancang pengalaman website layanan modern dengan interaksi halus dan layout responsif.',
+      },
+    ],
+  },
+  {
+    order: 5,
+    title: 'VortaCreative',
+    category: {
+      en: 'Web Development',
+      id: 'Pengembangan Web',
+    },
+    filter: 'web-development',
+    link: 'https://vortacreative.vercel.app/',
+    thumbnail: '/images/portfolio/vortacreative.png',
+    description: {
+      en: 'A creative web project presenting VortaCreative with a polished, responsive interface and clear brand-focused visual direction.',
+      id: 'Project web kreatif yang menampilkan VortaCreative dengan antarmuka responsif yang rapi dan arahan visual brand yang jelas.',
+    },
+    highlights: [
+      {
+        en: 'Built as a modern brand website with responsive presentation across screen sizes.',
+        id: 'Dibangun sebagai website brand modern dengan tampilan responsif di berbagai ukuran layar.',
       },
     ],
   },
