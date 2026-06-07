@@ -28,8 +28,8 @@ function App() {
   const tabs = useMemo(
     () => [
       { id: 'about', label: text.nav.about },
-      { id: 'resume', label: text.nav.resume },
       { id: 'portfolio', label: text.nav.portfolio },
+      { id: 'resume', label: text.nav.resume },
       { id: 'contact', label: text.nav.contact },
     ],
     [text]

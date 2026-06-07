@@ -67,6 +67,10 @@ export const uiText = {
       portfolioFilters: 'Portfolio filters',
       socialLinks: 'Social links',
     },
+    portfolioMore: {
+      prefix: 'Want to see more of my projects? Please access my full portfolio here:',
+      link: 'https://github.com/raamwhy',
+    },
   },
   id: {
     nav: {
@@ -96,6 +100,10 @@ export const uiText = {
     aria: {
       portfolioFilters: 'Filter portofolio',
       socialLinks: 'Tautan sosial',
+    },
+    portfolioMore: {
+      prefix: 'Ingin melihat lebih banyak proyek saya? Silakan akses portofolio lengkap saya di sini:',
+      link: 'https://github.com/raamwhy',
     },
   },
 };

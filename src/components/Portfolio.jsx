@@ -109,6 +109,13 @@ function Portfolio({ language, text }) {
           </a>
         ))}
       </div>
+
+      <p className="portfolio-more" data-reveal>
+        {text.portfolioMore.prefix}{' '}
+        <a href={text.portfolioMore.link} target="_blank" rel="noopener noreferrer">
+          {text.portfolioMore.link}
+        </a>
+      </p>
     </article>
   );
 }
