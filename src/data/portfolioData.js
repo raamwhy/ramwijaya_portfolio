@@ -13,12 +13,16 @@ import {
   Youtube,
 } from 'lucide-react';
 import {
+  SiCss,
   SiDocker,
   SiFlutter,
   SiGithub,
+  SiHtml5,
+  SiJavascript,
   SiKeras,
   SiLaravel,
   SiMysql,
+  SiPhp,
   SiPython,
   SiReact,
   SiScikitlearn,
@@ -195,6 +199,22 @@ export const skills = [
   {
     name: 'Python',
     icon: SiPython,
+  },
+  {
+    name: 'HTML',
+    icon: SiHtml5,
+  },
+  {
+    name: 'CSS',
+    icon: SiCss,
+  },
+  {
+    name: 'JavaScript',
+    icon: SiJavascript,
+  },
+  {
+    name: 'PHP',
+    icon: SiPhp,
   },
   {
     name: 'React',
