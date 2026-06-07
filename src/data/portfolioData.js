@@ -581,7 +581,7 @@ export const projects = [
     ],
   },
   {
-    order: 6,
+    order: 7,
     title: 'Image Classification Animals-10',
     category: {
       en: 'Machine Learning',
@@ -665,6 +665,27 @@ export const projects = [
       {
         en: 'Built as a modern brand website with responsive presentation across screen sizes.',
         id: 'Dibangun sebagai website brand modern dengan tampilan responsif di berbagai ukuran layar.',
+      },
+    ],
+  },
+  {
+    order: 6,
+    title: 'EduCourse Admin Dashboard',
+    category: {
+      en: 'Web Development',
+      id: 'Pengembangan Web',
+    },
+    filter: 'web-development',
+    link: 'https://educourse-admin.vercel.app/',
+    thumbnail: '/images/portfolio/educourse_admin.png',
+    description: {
+      en: 'An admin dashboard for managing EduCourse operations with a structured interface for academic data and learning management workflows.',
+      id: 'Dashboard admin untuk mengelola operasional EduCourse dengan antarmuka terstruktur untuk data akademik dan alur manajemen pembelajaran.',
+    },
+    highlights: [
+      {
+        en: 'Built a clean dashboard experience for monitoring and managing course management activities.',
+        id: 'Membangun pengalaman dashboard yang rapi untuk memantau dan mengelola aktivitas course management.',
       },
     ],
   },
