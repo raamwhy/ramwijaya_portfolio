@@ -113,8 +113,9 @@ function Portfolio({ language, text }) {
       <p className="portfolio-more" data-reveal>
         {text.portfolioMore.prefix}{' '}
         <a href={text.portfolioMore.link} target="_blank" rel="noopener noreferrer">
-          {text.portfolioMore.link}
+          {text.portfolioMore.cta}
         </a>
+        .
       </p>
     </article>
   );

@@ -68,7 +68,8 @@ export const uiText = {
       socialLinks: 'Social links',
     },
     portfolioMore: {
-      prefix: 'Want to see more of my projects? Please access my full portfolio here:',
+      prefix: 'Want to see more of my projects?',
+      cta: 'Click here',
       link: 'https://github.com/raamwhy',
     },
   },
@@ -102,7 +103,8 @@ export const uiText = {
       socialLinks: 'Tautan sosial',
     },
     portfolioMore: {
-      prefix: 'Ingin melihat lebih banyak proyek saya? Silakan akses portofolio lengkap saya di sini:',
+      prefix: 'Ingin melihat lebih banyak proyek saya?',
+      cta: 'Klik di sini',
       link: 'https://github.com/raamwhy',
     },
   },
