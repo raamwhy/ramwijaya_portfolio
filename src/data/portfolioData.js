@@ -678,6 +678,7 @@ export const projects = [
     filter: 'web-development',
     link: 'https://educourse-admin.vercel.app/',
     thumbnail: '/images/portfolio/educourse_admin.png',
+    imageFit: 'contain',
     description: {
       en: 'An admin dashboard for managing EduCourse operations with a structured interface for academic data and learning management workflows.',
       id: 'Dashboard admin untuk mengelola operasional EduCourse dengan antarmuka terstruktur untuk data akademik dan alur manajemen pembelajaran.',

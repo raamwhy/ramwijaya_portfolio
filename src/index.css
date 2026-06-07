@@ -849,8 +849,16 @@ a.contact-row:hover {
   transition: transform 260ms ease;
 }
 
+.project-image-contain {
+  object-fit: contain;
+}
+
 .project-card:hover .project-image {
   transform: scale(1.04);
+}
+
+.project-card:hover .project-image-contain {
+  transform: none;
 }
 
 .api-topbar {

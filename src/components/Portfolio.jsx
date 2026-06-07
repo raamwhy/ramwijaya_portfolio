@@ -60,7 +60,15 @@ function Portfolio({ language, text }) {
           >
             <div className="project-thumb" aria-hidden="true">
               {project.thumbnail ? (
-                <img className="project-image" src={project.thumbnail} alt="" />
+                <img
+                  className={
+                    project.imageFit === 'contain'
+                      ? 'project-image project-image-contain'
+                      : 'project-image'
+                  }
+                  src={project.thumbnail}
+                  alt=""
+                />
               ) : (
                 <div className="api-window">
                   <div className="api-topbar">
