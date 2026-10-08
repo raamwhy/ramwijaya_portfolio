@@ -8,7 +8,6 @@ import {
   Linkedin,
   Mail,
   MapPin,
-  Phone,
   Users,
   Youtube,
 } from 'lucide-react';
@@ -116,17 +115,16 @@ export const profile = {
   secondaryRole: 'Web Developer',
   avatar: '/images/profile/ramwijaya_pp.jpeg',
   email: 'ramwjay@gmail.com',
-  phone: '083879831873',
-  whatsapp: 'https://wa.me/6283879831873',
+  linkedin: 'linkedin.com/in/ram-wijaya',
   location: 'Tangerang, Banten, Indonesia',
   contactLabels: {
     email: {
       en: 'Email',
       id: 'Email',
     },
-    phone: {
-      en: 'Phone',
-      id: 'Telepon',
+    linkedin: {
+      en: 'LinkedIn',
+      id: 'LinkedIn',
     },
     location: {
       en: 'Location',
@@ -159,8 +157,8 @@ export const profile = {
 
 export const aboutParagraphs = [
   {
-    en: 'Informatics student at Sultan Ageng Tirtayasa University with a GPA of 3.86/4.00, focused on Machine Learning and Web Development. Skilled in building modern, responsive, and user-friendly web applications, as well as developing Machine Learning and Deep Learning projects.',
-    id: 'Mahasiswa Informatika di Universitas Sultan Ageng Tirtayasa dengan IPK 3.86/4.00, berfokus pada Machine Learning dan Web Development. Terampil membangun aplikasi web modern, responsif, dan mudah digunakan, serta mengembangkan proyek Machine Learning dan Deep Learning.',
+    en: 'Informatics student at Sultan Ageng Tirtayasa University with a GPA of 3.87/4.00, focused on Machine Learning and Web Development. Skilled in building modern, responsive, and user-friendly web applications, as well as developing Machine Learning and Deep Learning projects.',
+    id: 'Mahasiswa Informatika di Universitas Sultan Ageng Tirtayasa dengan IPK 3.87/4.00, berfokus pada Machine Learning dan Web Development. Terampil membangun aplikasi web modern, responsif, dan mudah digunakan, serta mengembangkan proyek Machine Learning dan Deep Learning.',
   },
   {
     en: 'Passionate about creating impactful digital solutions that combine functionality, performance, and intelligent technology. A curious and adaptable individual who enjoys learning new things and continuously improving skills to contribute through meaningful projects and real-world solutions.',
@@ -272,8 +270,8 @@ export const resumeSections = [
         },
         location: 'Cilegon, Banten, Indonesia',
         description: {
-          en: 'GPA: 3.86/4.00',
-          id: 'IPK: 3.86/4.00',
+          en: 'GPA: 3.87/4.00',
+          id: 'IPK: 3.87/4.00',
         },
       },
       {
@@ -302,11 +300,19 @@ export const resumeSections = [
     icon: Briefcase,
     items: [
       {
+        title: 'Web Developer & UI/UX Intern',
+        subtitle: 'VINIX7',
+        date: {
+          en: 'Aug 2026 - December 2026',
+          id: 'Agu 2026 - Desember 2026',
+        },
+      },
+      {
         title: 'AI Engineer Cohort',
         subtitle: 'Coding Camp powered by DBS Foundation',
         date: {
-          en: 'Jan 2026 - Present',
-          id: 'Jan 2026 - Sekarang',
+          en: 'Feb 2026 - Jul 2026',
+          id: 'Feb 2026 - Jul 2026',
         },
         bullets: [
           {
@@ -714,15 +720,6 @@ export const contactCards = [
   },
   {
     title: {
-      en: 'Phone',
-      id: 'Telepon',
-    },
-    value: '083879831873',
-    href: 'https://wa.me/6283879831873',
-    icon: Phone,
-  },
-  {
-    title: {
       en: 'Location',
       id: 'Lokasi',
     },
@@ -746,11 +743,5 @@ export const contactCards = [
     value: 'instagram.com/raamwhy',
     href: 'https://www.instagram.com/raamwhy',
     icon: Instagram,
-  },
-  {
-    title: 'YouTube',
-    value: 'youtube.com/@raamwhy',
-    href: 'https://www.youtube.com/@raamwhy',
-    icon: Youtube,
   },
 ];

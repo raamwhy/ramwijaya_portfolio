@@ -30,7 +30,7 @@ function Timeline({ section, language }) {
                 {item.location ? <span>{localize(item.location, language)}</span> : null}
               </div>
               {item.description ? <p>{localize(item.description, language)}</p> : null}
-              {item.bullets ? (
+              {item.bullets && localize(section.title, 'en') !== 'Experience' && localize(section.title, 'en') !== 'Organization' ? (
                 <ul>
                   {item.bullets.map((bullet) => (
                     <li key={localize(bullet, 'en')}>{localize(bullet, language)}</li>
