@@ -1,4 +1,4 @@
-import { Linkedin, Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { localize, profile } from '../data/portfolioData.js';
 
 function Sidebar({ language, text }) {
@@ -8,13 +8,6 @@ function Sidebar({ language, text }) {
       value: profile.email,
       href: `mailto:${profile.email}`,
       icon: Mail,
-    },
-    {
-      label: profile.contactLabels.linkedin,
-      value: profile.linkedin,
-      href: 'https://www.linkedin.com/in/ram-wijaya',
-      external: true,
-      icon: Linkedin,
     },
     {
       label: profile.contactLabels.location,

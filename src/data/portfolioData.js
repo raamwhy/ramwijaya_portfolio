@@ -132,6 +132,11 @@ export const profile = {
   },
   socials: [
     {
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/ram-wijaya',
+      icon: Linkedin,
+    },
+    {
       label: 'GitHub',
       href: 'https://github.com/raamwhy',
       icon: Github,
