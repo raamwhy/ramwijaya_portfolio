@@ -53,9 +53,9 @@ function Portfolio({ language, text }) {
           <a
             className="project-card"
             data-reveal
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
+            href={project.link || undefined}
+            target={project.link ? '_blank' : undefined}
+            rel={project.link ? 'noopener noreferrer' : undefined}
             key={project.title}
           >
             <div className="project-thumb" aria-hidden="true">

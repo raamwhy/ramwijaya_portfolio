@@ -706,6 +706,38 @@ export const projects = [
       },
     ],
   },
+  {
+    order: 8,
+    title: 'Laptopia',
+    category: {
+      en: 'Mobile Apps',
+      id: 'Aplikasi Mobile',
+    },
+    filter: 'mobile-apps',
+    link: 'https://github.com/raamwhy/laptopia_flutter',
+    thumbnail: '/images/portfolio/laptopia.png',
+    description: {
+      en: 'A Flutter mobile application project designed with a practical and user-friendly interface.',
+      id: 'Project aplikasi mobile Flutter dengan antarmuka yang praktis dan mudah digunakan.',
+    },
+    highlights: [],
+  },
+  {
+    order: 9,
+    title: 'Navika',
+    category: {
+      en: 'Web Development',
+      id: 'Pengembangan Web',
+    },
+    filter: 'web-development',
+    link: null,
+    thumbnail: '/images/portfolio/navika.png',
+    description: {
+      en: 'A web development project showcasing the Navika digital experience.',
+      id: 'Project pengembangan web yang menampilkan pengalaman digital Navika.',
+    },
+    highlights: [],
+  },
 ];
 
 export const contactCards = [
