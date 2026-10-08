@@ -414,11 +414,14 @@ export const resumeSections = [
     icon: Users,
     items: [
       {
-        title: 'Staff - Departemen Minat dan Bakat',
+        title: {
+          en: 'Staff – Talent and Development Department',
+          id: 'Staff - Departemen Minat dan Bakat',
+        },
         subtitle: 'Himpunan Mahasiswa Informatika (HMIF) FT UNTIRTA',
         date: {
-          en: 'Feb 2025 - Present',
-          id: 'Feb 2025 - Sekarang',
+          en: 'Feb 2025 - Aug 2026',
+          id: 'Feb 2025 - Agu 2026',
         },
         bullets: [
           {
@@ -449,8 +452,8 @@ export const resumeSections = [
       },
       {
         title: {
-          en: 'Coordinator - Computer Network Competition, INFORTECHX 2026',
-          id: 'Koordinator - Computer Network Competition, INFORTECHX 2026',
+          en: 'Computer Network Competition Coordinator, INFORTECHX 2026',
+          id: 'Koordinator Kompetisi Jaringan Komputer, INFORTECHX 2026',
         },
         date: 'Feb 2026',
         bullets: [
@@ -478,8 +481,8 @@ export const resumeSections = [
       },
       {
         title: {
-          en: 'Coordinator - Field Coordinator Division, POM IF 2025',
-          id: 'Koordinator - Divisi Koordinator Lapangan, POM IF 2025',
+          en: 'Head of Field Coordinator Division, POM IF 2025',
+          id: 'Kepala Divisi Koordinator Lapangan, POM IF 2025',
         },
         date: 'Jun 2025',
         bullets: [
@@ -503,8 +506,8 @@ export const resumeSections = [
       },
       {
         title: {
-          en: 'Staff - Equipment Division, DINAMIS KT 1',
-          id: 'Staff - Divisi Perlengkapan, DINAMIS KT 1',
+          en: 'Logistics and Equipment Staff, DINAMIS',
+          id: 'Staf Logistik dan Perlengkapan, DINAMIS',
         },
         date: {
           en: 'May 2025 - Jun 2025',
