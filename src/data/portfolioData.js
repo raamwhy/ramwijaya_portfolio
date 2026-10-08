@@ -9,7 +9,6 @@ import {
   Mail,
   MapPin,
   Users,
-  Youtube,
 } from 'lucide-react';
 import {
   SiCss,
@@ -133,11 +132,6 @@ export const profile = {
   },
   socials: [
     {
-      label: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/ram-wijaya',
-      icon: Linkedin,
-    },
-    {
       label: 'GitHub',
       href: 'https://github.com/raamwhy',
       icon: Github,
@@ -146,11 +140,6 @@ export const profile = {
       label: 'Instagram',
       href: 'https://www.instagram.com/raamwhy',
       icon: Instagram,
-    },
-    {
-      label: 'YouTube',
-      href: 'https://www.youtube.com/@raamwhy',
-      icon: Youtube,
     },
   ],
 };
@@ -303,8 +292,8 @@ export const resumeSections = [
         title: 'Web Developer & UI/UX Intern',
         subtitle: 'VINIX7',
         date: {
-          en: 'Aug 2026 - December 2026',
-          id: 'Agu 2026 - Desember 2026',
+          en: 'Aug 2026 - Dec 2026',
+          id: 'Agu 2026 - Des 2026',
         },
       },
       {
@@ -343,8 +332,8 @@ export const resumeSections = [
       },
       {
         title: {
-          en: 'Digital Transformation - Internship',
-          id: 'Digital Transformation - Magang',
+          en: 'Digital Transformation Intern',
+          id: 'Intern Digital Transformation',
         },
         subtitle: 'PT Krakatau Information Technology',
         date: {
@@ -372,7 +361,10 @@ export const resumeSections = [
         ],
       },
       {
-        title: 'Java Fundamentals & Java Programming',
+        title: {
+          en: 'Java Fundamentals & Java Programming Cohort',
+          id: 'Java Fundamentals & Java Programming Cohort',
+        },
         subtitle: 'Digital Talent Scholarship',
         date: 'Feb 2024 - Jul 2024',
         bullets: [
@@ -396,8 +388,8 @@ export const resumeSections = [
       },
       {
         title: {
-          en: 'Production Staff - Internship',
-          id: 'Production Staff - Magang',
+          en: 'Production Staff Intern',
+          id: 'Intern Production Staff',
         },
         subtitle: 'SANKEN',
         date: 'Jun 2022 - Sep 2022',
